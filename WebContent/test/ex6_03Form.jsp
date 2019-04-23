@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h2>아이디와 패스워드를 입력하세요</h2>
-	
+	<h2>깃테스트</h2>
 	<form method="post" action="ex6_03Pro.jsp">
 		아이디: <input type = "text" name = "id"><br>
 		패스워드 : <input type = "text" name = "passwd"><br>
