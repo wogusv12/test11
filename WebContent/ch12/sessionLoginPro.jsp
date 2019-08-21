@@ -5,9 +5,9 @@
     <%request.setCharacterEncoding("utf-8") ;%>
     
     <%
-    	String id = request.getParameter("id");
+    	String id = request.getParameter("User_id");
     
-    	String passwd = request.getParameter("passwd");
+    	String passwd = request.getParameter("User_passwd");
     	
     	LogonDBBean logon = LogonDBBean.getInstnce();
     	int check = logon.userCheck(id, passwd);
